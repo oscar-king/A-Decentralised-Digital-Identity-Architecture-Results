@@ -1,0 +1,3 @@
+setUp(scn.inject(
+    constantUsersPerSec(5) during (5 minutes)
+  ).protocols(httpProtocol))

@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.ServiceResponse",
+  "simulationId": "serviceresponse",
+  "start": 1588196149308,
+  "description": "7 per second",
+  "scenarios": ["Service Response"],
+  "assertions": [
+
+  ]
+}

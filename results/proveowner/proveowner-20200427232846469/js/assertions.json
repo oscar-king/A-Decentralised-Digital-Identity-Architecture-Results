@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.ProveOwner",
+  "simulationId": "proveowner",
+  "start": 1588030126469,
+  "description": "9 per sec",
+  "scenarios": ["Prove Ownership"],
+  "assertions": [
+
+  ]
+}
