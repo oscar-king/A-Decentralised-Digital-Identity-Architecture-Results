@@ -33,6 +33,6 @@ class VerifyBlock extends Simulation {
 
 
   setUp(scn.inject(
-    constantUsersPerSec(10) during (5 minutes)
+    constantUsersPerSec(10) during (20 minutes)
   ).protocols(httpProtocol))
 }

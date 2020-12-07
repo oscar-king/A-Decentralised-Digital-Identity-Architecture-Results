@@ -1,0 +1,10 @@
+{
+  "simulation": "computerdatabase.VerifyBlock",
+  "simulationId": "verifyblock",
+  "start": 1604257490956,
+  "description": "",
+  "scenarios": ["Verify Block"],
+  "assertions": [
+
+  ]
+}

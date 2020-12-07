@@ -32,6 +32,6 @@ class RequestSignature extends Simulation {
 
   setUp(scn.inject(
     //    rampUsers(50) during (10 seconds),
-    constantUsersPerSec(10) during (5 minutes)
+    constantUsersPerSec(3) during (20 minutes)
   ).protocols(httpProtocol))
 }

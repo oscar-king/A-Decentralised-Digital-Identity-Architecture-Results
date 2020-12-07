@@ -20,7 +20,6 @@ class ProveOwner extends Simulation {
     .exec(ProveInteraction.proof)
 
   setUp(scn.inject(
-    rampUsers(10) during (10 seconds),
-    constantUsersPerSec(10) during (5 minutes)
+    constantUsersPerSec(9) during (20 minutes)
   ).protocols(httpProtocol))
 }

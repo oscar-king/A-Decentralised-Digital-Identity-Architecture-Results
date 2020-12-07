@@ -31,6 +31,6 @@ class ServiceResponse extends Simulation {
 
   setUp(scn.inject(
 //    rampUsers(50) during (10 seconds),
-    constantUsersPerSec(10) during (5 minutes)
+    constantUsersPerSec(1) during (20 minutes)
   ).protocols(httpProtocol))
 }
